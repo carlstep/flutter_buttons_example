@@ -107,6 +107,19 @@ class _MainPageState extends State<MainPage> {
                 ),
               ],
             ),
+            MaterialButton(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+              color: Colors.grey,
+              child: const Text(
+                'Enter',
+                style: TextStyle(color: Colors.red),
+              ),
+              onPressed: () {
+                text = 'Material Button Clicked';
+              },
+            ),
           ],
         ),
       ),
